@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    
+
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Progressive Web App development services by Aptecode. Build lightning-fast, app-like experiences that work offline and across all devices.">
+
+        <!-- Site Title -->
+        <title>Progressive Web Apps - Aptecode</title>
+
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+
+        <!-- CSS here -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+        <link rel="stylesheet" href="assets/css/venobox.min.css">
+        <link rel="stylesheet" href="assets/css/odometer.min.css">
+        <link rel="stylesheet" href="assets/css/nice-select.css">
+        <link rel="stylesheet" href="assets/css/carouselTicker.css">
+        <link rel="stylesheet" href="assets/css/swiper.min.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+    </head>
+
+    <body>
+
+        <div class="line-wrap">
+            <div class="line"><span></span></div>
+            <div class="line"><span></span></div>
+            <div class="line"><span></span></div>
+        </div>
+
+        <!-- header-area-start -->
+        <header class="header header-8 sticky-active">
+            <div class="primary-header">
+                <div class="primary-header-inner">
+                    <div class="header-logo d-lg-block">
+                        <a href="index.html">
+                            <img class="logo-dark" src="assets/img/logo/aptecode.png" alt="Aptecode Logo">
+                            <img class="logo-light" src="assets/img/logo/aptecode.png" alt="Aptecode Logo">
+                        </a>
+                    </div>
+                    <div class="header-right-wrap">
+                        <div class="header-menu-wrap">
+                            <div class="mobile-menu-items">
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">About Aptecode</a></li>
+                                    <li><a href="service.html">Our Services</a></li>
+                                    <li><a href="project.html">Portfolio</a></li>
+                                    <!-- <li><a href="index.html#blog">Blog</a></li> -->
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- /.header-menu-wrap -->
+                        <div class="header-right">
+                            <div class="header-btn">
+                                <a href="contact.html" class="rr-primary-btn">Get Free Consultation</a>
+                            </div>
+                            <div class="sidebar-icon">
+                                <button class="sidebar-trigger open">
+                                    <svg width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.300781 0H5.30078V5H0.300781V0Z" fill="currentColor"/>
+                                        <path d="M0.300781 9H5.30078V14H0.300781V9Z" fill="currentColor"/>
+                                        <path d="M0.300781 18H5.30078V23H0.300781V18Z" fill="currentColor"/>
+                                        <path d="M9.30078 0H14.3008V5H9.30078V0Z" fill="currentColor"/>
+                                        <path d="M9.30078 9H14.3008V14H9.30078V9Z" fill="currentColor"/>
+                                        <path d="M9.30078 18H14.3008V23H9.30078V18Z" fill="currentColor"/>
+                                        <path d="M18.3008 0H23.3008V5H18.3008V0Z" fill="currentColor"/>
+                                        <path d="M18.3008 9H23.3008V14H18.3008V9Z" fill="currentColor"/>
+                                        <path d="M18.3008 18H23.3008V23H18.3008V18Z" fill="currentColor"/>
+                                        </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- /.header-right -->
+                    </div>
+                </div>
+                <!-- /.primary-header-inner -->
+            </div>
+        </header>
+        <!-- /.Main Header -->
+
+        <div id="popup-search-box">
+            <div class="box-inner-wrap d-flex align-items-center">
+                <form id="form" action="#" method="get" role="search">
+                    <input id="popup-search" type="text" name="s" placeholder="Type keywords here...">
+                </form>
+                <div class="search-close"><i class="fas fa-times"></i></div>
+            </div>
+        </div>
+        <!-- /#popup-search-box -->
+
+        <div id="sidebar-area" class="sidebar-area">
+            <button class="sidebar-trigger close">
+                <svg
+                    class="sidebar-close"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    x="0px"
+                    y="0px"
+                    width="16px"
+                    height="12.7px"
+                    viewBox="0 0 16 12.7"
+                    style="enable-background: new 0 0 16 12.7"
+                    xml:space="preserve"
+                >
+                    <g>
+                        <rect
+                            x="0"
+                            y="5.4"
+                            transform="matrix(0.7071 -0.7071 0.7071 0.7071 -2.1569 7.5208)"
+                            width="16"
+                            height="2"
+                        ></rect>
+                        <rect
+                            x="0"
+                            y="5.4"
+                            transform="matrix(0.7071 0.7071 -0.7071 0.7071 6.8431 -3.7929)"
+                            width="16"
+                            height="2"
+                        ></rect>
+                    </g>
+                </svg>
+            </button>
+            <div class="side-menu-content">
+                <div class="side-menu-logo">
+                    <a class="dark-img" href="index.html"><img src="assets/img/logo/aptecode.png" alt="Aptecode Logo"></a>
+                    <a class="light-img" href="index.html"><img src="assets/img/logo/aptecode.png" alt="Aptecode Logo"></a>
+                </div>
+                <div class="side-menu-wrap"></div>
+                <div class="side-menu-about">
+                    <div class="side-menu-header">
+                        <h3>About Aptecode</h3>
+                    </div>
+                    <p>Aptecode specializes in building GEO & SEO friendly web apps, custom software, websites, and crypto social services. We help businesses grow online and in the crypto community.</p>
+                    <a href="contact.html" class="rr-primary-btn">Contact Us</a>
+                </div>
+                <div class="side-menu-contact">
+                    <div class="side-menu-header">
+                        <h3>Contact Aptecode</h3>
+                    </div>
+                    <ul class="side-menu-list">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Ozark, AL, United States</p>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+13342007299">+1 334-200-7299</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope-open-text"></i>
+                            <a href="mailto:support@ivey.solutions">support@ivey.solutions</a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="side-menu-social">
+                    <li class="facebook"><a href="https://www.facebook.com/profile.php?id=61580863580433" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                    <li class="instagram"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li class="twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li class="linkedin"><a href="https://www.linkedin.com/company/101607358/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <!--/.sidebar-area-->
+
+        <div id="preloader">
+            <div class="loading" data-loading-text="Aptecode"></div>
+        </div>
+        <!-- ./ preloader -->
+
+    <div id="smooth-wrapper">
+        <div id="smooth-content">
+
+        <section class="page-header" data-background="assets/img/bg-img/cta-bg-2.png">
+            <div class="overlay"></div>
+            <div class="shapes">
+                <div class="shape shape-1"><img src="assets/img/shapes/about-wrap-shape.png" alt="shape"></div>
+                <div class="shape shape-2"><img src="assets/img/shapes/about-wrap-shape.png" alt="shape"></div>
+                <div class="shape shape-3"><img src="assets/img/shapes/about-wrap-shape.png" alt="shape"></div>
+            </div>
+            <div class="container">
+                <div class="page-header-content text-center">
+                    <h1 class="title">Progressive Web Apps</h1>
+                    <h4 class="sub-title"><a class="home" href="index.html">Home </a><span></span><a class="home" href="service.html">Services </a><span></span><a class="inner-page" href="web-apps.html">Progressive Web Apps</a></h4>
+                </div>
+            </div>
+        </section>
+        <!-- ./ page-header -->
+
+        <section class="service-details pt-130 pb-130">
+            <div class="container">
+                <div class="row gy-lg-0 gy-5">
+                    <div class="col-lg-8 col-md-12">
+                        <div class="sidebar-content-wrap">
+                            <div class="service-details-img">
+                                <img src="assets/img/service/service-13.jpg" alt="Progressive Web App Development">
+                            </div>
+                            <div class="service-details-content">
+                                <h2 class="title">Progressive Web Apps</h2>
+                                <p class="mb-30">Progressive Web Apps (PWAs) represent the future of web development, combining the best features of web and mobile applications. At Aptecode, we create lightning-fast, app-like experiences that work seamlessly across all devices and platforms. Our PWAs deliver native app functionality through web browsers, offering offline capabilities, push notifications, and instant loading while maintaining cross-platform compatibility.</p>
+                                <div class="service-details-items">
+                                    <div class="service-details-item">
+                                        <div class="icon">
+                                            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <rect width="50" height="50" rx="12" fill="#E6F3FF"/>
+                                                <path d="M25 10C16.7 10 10 16.7 10 25C10 33.3 16.7 40 25 40C33.3 40 40 33.3 40 25C40 16.7 33.3 10 25 10ZM25 37C18.4 37 13 31.6 13 25C13 18.4 18.4 13 25 13C31.6 13 37 18.4 37 25C37 31.6 31.6 37 25 37Z" fill="#2563EB"/>
+                                                <path d="M23 20V30H20V20H23ZM30 20V30H27V20H30Z" fill="#2563EB"/>
+                                                <circle cx="25" cy="25" r="3" fill="#60A5FA"/>
+                                            </svg>
+                                        </div>
+                                        <div class="content">
+                                            <h3 class="title">Offline Functionality</h3>
+                                            <p>Advanced service worker implementation for seamless offline experiences</p>
+                                        </div>
+                                    </div>
+                                    <div class="service-details-item">
+                                        <div class="icon">
+                                            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <rect width="50" height="50" rx="12" fill="#F0FDF4"/>
+                                                <rect x="8" y="12" width="34" height="26" rx="4" fill="#16A34A"/>
+                                                <rect x="10" y="14" width="30" height="22" rx="2" fill="#22C55E"/>
+                                                <rect x="12" y="16" width="26" height="4" fill="#86EFAC"/>
+                                                <rect x="12" y="22" width="18" height="2" fill="#86EFAC"/>
+                                                <rect x="12" y="26" width="22" height="2" fill="#86EFAC"/>
+                                                <rect x="12" y="30" width="14" height="2" fill="#86EFAC"/>
+                                                <rect x="15" y="7" width="20" height="16" rx="3" fill="#10B981"/>
+                                                <rect x="17" y="9" width="16" height="12" rx="1" fill="#34D399"/>
+                                                <rect x="19" y="11" width="12" height="2" fill="#A7F3D0"/>
+                                                <rect x="19" y="14" width="8" height="1" fill="#A7F3D0"/>
+                                                <rect x="19" y="16" width="10" height="1" fill="#A7F3D0"/>
+                                            </svg>
+                                        </div>
+                                        <div class="content">
+                                            <h3 class="title">Cross-Platform</h3>
+                                            <p>Single codebase that works perfectly on all devices and platforms</p>
+                                        </div>
+                                    </div>
+                                    <div class="service-details-item">
+                                        <div class="icon">
+                                            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <rect width="50" height="50" rx="12" fill="#FEF3C7"/>
+                                                <path d="M15 25L25 15L35 25L25 35L15 25Z" fill="#F59E0B"/>
+                                                <path d="M20 25L25 20L30 25L25 30L20 25Z" fill="#FBBF24"/>
+                                                <circle cx="25" cy="25" r="3" fill="#FCD34D"/>
+                                                <path d="M25 10L27 15H23L25 10Z" fill="#D97706"/>
+                                                <path d="M40 25L35 27V23L40 25Z" fill="#D97706"/>
+                                                <path d="M25 40L23 35H27L25 40Z" fill="#D97706"/>
+                                                <path d="M10 25L15 23V27L10 25Z" fill="#D97706"/>
+                                            </svg>
+                                        </div>
+                                        <div class="content">
+                                            <h3 class="title">App-Like Performance</h3>
+                                            <p>Lightning-fast loading times with native app-like user experience</p>
+                                        </div>
+                                    </div>
+                                    <div class="service-details-item">
+                                        <div class="icon">
+                                            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <rect width="50" height="50" rx="12" fill="#FCE7F3"/>
+                                                <rect x="10" y="15" width="30" height="20" rx="4" fill="#EC4899"/>
+                                                <rect x="12" y="17" width="26" height="16" rx="2" fill="#F472B6"/>
+                                                <rect x="14" y="19" width="22" height="3" fill="#FBCFE8"/>
+                                                <rect x="14" y="24" width="16" height="2" fill="#FBCFE8"/>
+                                                <rect x="14" y="28" width="18" height="2" fill="#FBCFE8"/>
+                                                <circle cx="37" cy="18" r="4" fill="#BE185D"/>
+                                                <circle cx="37" cy="18" r="2" fill="#F9A8D4"/>
+                                                <path d="M35 16L37 14L39 16L37 18L35 16Z" fill="#FFFFFF"/>
+                                            </svg>
+                                        </div>
+                                        <div class="content">
+                                            <h3 class="title">Push Notifications</h3>
+                                            <p>Engage users with native-style push notifications and updates</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="mb-50">Our Progressive Web App development approach ensures your application delivers exceptional user experiences while maintaining the accessibility and reach of web applications. We leverage cutting-edge technologies to build PWAs that load instantly, work offline, and provide seamless interactions across all devices.</p>
+                                <h2 class="title">4 Simple Steps to Process</h2>
+                                <p class="mb-40">Our streamlined PWA development process ensures efficient delivery while maintaining the highest quality standards and optimal performance:</p>
+                                <div class="details-box-wrap">
+                                    <div class="details-box">
+                                        <span class="number">01</span>
+                                        <div class="content">
+                                            <h4 class="title">Strategy & Planning:</h4>
+                                            <p>Analyze your requirements and design PWA architecture for optimal performance and user experience.</p>
+                                        </div>
+                                    </div>
+                                    <div class="details-box">
+                                        <span class="number">02</span>
+                                        <div class="content">
+                                            <h4 class="title">Development & Integration:</h4>
+                                            <p>Build responsive PWA with service workers, manifest files, and progressive enhancement features.</p>
+                                        </div>
+                                    </div>
+                                    <div class="details-box">
+                                        <span class="number">03</span>
+                                        <div class="content">
+                                            <h4 class="title">Performance Optimization:</h4>
+                                            <p>Implement caching strategies, optimize loading speeds, and ensure seamless offline functionality.</p>
+                                        </div>
+                                    </div>
+                                    <div class="details-box">
+                                        <span class="number">04</span>
+                                        <div class="content">
+                                            <h4 class="title">Deployment & Monitoring:</h4>
+                                            <p>Launch your PWA with comprehensive analytics and ongoing performance monitoring.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="service-widget">
+                            <h3 class="widget-title">PWA Features</h3>
+                            <ul class="category-list">
+                                <li class="active"><a href="#"><i class="fa-sharp fa-regular fa-arrow-right"></i> Service Worker Implementation</a></li>
+                                <li><a href="#"><i class="fa-sharp fa-regular fa-arrow-right"></i> Offline Data Synchronization</a></li>
+                                <li><a href="#"><i class="fa-sharp fa-regular fa-arrow-right"></i> App Shell Architecture</a></li>
+                                <li><a href="#"><i class="fa-sharp fa-regular fa-arrow-right"></i> Background Sync</a></li>
+                                <li><a href="#"><i class="fa-sharp fa-regular fa-arrow-right"></i> Installation Prompts</a></li>
+                            </ul>
+                        </div>
+                        <div class="service-widget sticky-widget">
+                            <h3 class="widget-title">Download</h3>
+                            <div class="download-area">
+                                <div class="download-item">
+                                    <div class="left-item">
+                                        <div class="icon">
+                                            <svg class="dark-img" width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                                                <defs>
+                                                    <linearGradient id="pwaGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                                        <stop offset="0%" stop-color="#8e44ad"/>
+                                                        <stop offset="100%" stop-color="#9b59b6"/>
+                                                    </linearGradient>
+                                                </defs>
+                                                <circle cx="24" cy="24" r="20" fill="url(#pwaGradient)" opacity="0.9"/>
+                                                <path d="M32,14H16c-1.1,0-2,0.9-2,2v16c0,1.1,0.9,2,2,2h16c1.1,0,2-0.9,2-2V16C34,14.9,33.1,14,32,14z" fill="#fff"/>
+                                                <path d="M19,21h10v2H19V21z M19,25h7v2h-7V25z" fill="#8e44ad"/>
+                                                <circle cx="19" cy="30" r="1.5" fill="#9b59b6"/>
+                                                <path d="M24,32v4l-4-4h-2v-4h12v4h-2L24,32z" fill="#8e44ad"/>
+                                                <rect x="14" y="10" width="4" height="8" rx="1" fill="#9b59b6"/>
+                                                <rect x="22" y="10" width="4" height="6" rx="1" fill="#9b59b6"/>
+                                                <rect x="30" y="10" width="4" height="10" rx="1" fill="#9b59b6"/>
+                                            </svg>
+                                            <svg class="light-img" width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                                                <defs>
+                                                    <linearGradient id="pwaGradientLight" x1="0%" y1="0%" x2="100%" y2="100%">
+                                                        <stop offset="0%" stop-color="#b07cc6"/>
+                                                        <stop offset="100%" stop-color="#c39bd3"/>
+                                                    </linearGradient>
+                                                </defs>
+                                                <circle cx="24" cy="24" r="20" fill="url(#pwaGradientLight)" opacity="0.9"/>
+                                                <path d="M32,14H16c-1.1,0-2,0.9-2,2v16c0,1.1,0.9,2,2,2h16c1.1,0,2-0.9,2-2V16C34,14.9,33.1,14,32,14z" fill="#fff"/>
+                                                <path d="M19,21h10v2H19V21z M19,25h7v2h-7V25z" fill="#b07cc6"/>
+                                                <circle cx="19" cy="30" r="1.5" fill="#c39bd3"/>
+                                                <path d="M24,32v4l-4-4h-2v-4h12v4h-2L24,32z" fill="#b07cc6"/>
+                                                <rect x="14" y="10" width="4" height="8" rx="1" fill="#c39bd3"/>
+                                                <rect x="22" y="10" width="4" height="6" rx="1" fill="#c39bd3"/>
+                                                <rect x="30" y="10" width="4" height="10" rx="1" fill="#c39bd3"/>
+                                            </svg>
+                                        </div>
+                                        <div class="content">
+                                            <h3 class="title">PWA Development Guide</h3>
+                                            <a href="#">Download</a>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="download-btn"><i class="fa-sharp fa-regular fa-arrow-right"></i></a>
+                                </div>
+                                <div class="download-item">
+                                    <div class="left-item">
+                                        <div class="icon">
+                                            <svg class="dark-img" width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                                                <defs>
+                                                    <linearGradient id="performanceGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                                        <stop offset="0%" stop-color="#2ecc71"/>
+                                                        <stop offset="100%" stop-color="#27ae60"/>
+                                                    </linearGradient>
+                                                </defs>
+                                                <circle cx="24" cy="24" r="20" fill="url(#performanceGradient)" opacity="0.9"/>
+                                                <path d="M33,18H15c-1.1,0-2,0.9-2,2v14c0,1.1,0.9,2,2,2h18c1.1,0,2-0.9,2-2V20C35,18.9,34.1,18,33,18z" fill="#fff"/>
+                                                <rect x="17" y="22" width="14" height="2" rx="1" fill="#27ae60"/>
+                                                <rect x="17" y="26" width="10" height="2" rx="1" fill="#27ae60"/>
+                                                <rect x="17" y="30" width="6" height="2" rx="1" fill="#27ae60"/>
+                                                <path d="M24,10v4M18,12l2,3M30,12l-2,3" stroke="#2ecc71" stroke-width="2" stroke-linecap="round"/>
+                                                <circle cx="24" cy="10" r="2" fill="#2ecc71"/>
+                                                <path d="M35,24h4M35,20l3-2M35,28l3,2" stroke="#2ecc71" stroke-width="1.5" stroke-linecap="round"/>
+                                                <path d="M9,24h4M9,20l3,2M9,28l3-2" stroke="#2ecc71" stroke-width="1.5" stroke-linecap="round"/>
+                                                <path d="M24,36v-4l-3,2h-2v-6h10v6h-2l-3-2v4z" fill="#27ae60"/>
+                                            </svg>
+                                            <svg class="light-img" width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                                                <defs>
+                                                    <linearGradient id="performanceGradientLight" x1="0%" y1="0%" x2="100%" y2="100%">
+                                                        <stop offset="0%" stop-color="#58d68d"/>
+                                                        <stop offset="100%" stop-color="#2ecc71"/>
+                                                    </linearGradient>
+                                                </defs>
+                                                <circle cx="24" cy="24" r="20" fill="url(#performanceGradientLight)" opacity="0.9"/>
+                                                <path d="M33,18H15c-1.1,0-2,0.9-2,2v14c0,1.1,0.9,2,2,2h18c1.1,0,2-0.9,2-2V20C35,18.9,34.1,18,33,18z" fill="#fff"/>
+                                                <rect x="17" y="22" width="14" height="2" rx="1" fill="#2ecc71"/>
+                                                <rect x="17" y="26" width="10" height="2" rx="1" fill="#2ecc71"/>
+                                                <rect x="17" y="30" width="6" height="2" rx="1" fill="#2ecc71"/>
+                                                <path d="M24,10v4M18,12l2,3M30,12l-2,3" stroke="#58d68d" stroke-width="2" stroke-linecap="round"/>
+                                                <circle cx="24" cy="10" r="2" fill="#58d68d"/>
+                                                <path d="M35,24h4M35,20l3-2M35,28l3,2" stroke="#58d68d" stroke-width="1.5" stroke-linecap="round"/>
+                                                <path d="M9,24h4M9,20l3,2M9,28l3-2" stroke="#58d68d" stroke-width="1.5" stroke-linecap="round"/>
+                                                <path d="M24,36v-4l-3,2h-2v-6h10v6h-2l-3-2v4z" fill="#2ecc71"/>
+                                            </svg>
+                                        </div>
+                                        <div class="content">
+                                            <h3 class="title">Performance Checklist</h3>
+                                            <a href="#">Download</a>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="download-btn"><i class="fa-sharp fa-regular fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ./ service-details -->
+
+        <footer class="footer-section footer-2 footer-3 bg-dark-1 overflow-hidden">
+            <div class="shape"><img src="assets/img/shapes/footer-bg-shape.png" alt="footer"></div>
+            <div class="container">
+                <div class="footer-top">
+                    <h2 class="title" data-text-animation data-split="word" data-duration="1">Let's Start Your Next <br> Dream Project</h2>
+                    <a href="contact.html" class="footer-btn"><i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="row footer-wrap">
+                    <ul class="footer-text-social">
+                        <li><a href="https://www.facebook.com/profile.php?id=61580863580433" target="_blank">facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">twitter</a></li>
+                        <li><a href="#">pinterest</a></li>
+                        <li><a href="#">Discord</a></li>
+                        <li><a href="https://www.linkedin.com/company/101607358/" target="_blank">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright-area">
+                <div class="container">
+                    <div class="row copyright-content content-2">
+                        <div class="col-md-6">
+                            <div class="site-logo"><a href="index.html"><img src="assets/img/logo/aptecode.png" alt="Aptecode Logo"></a></div>
+                        </div>
+                        <div class="col-md-6">
+                            <p>© 2025 Aptecode. All Rights Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- ./ footer-section -->
+
+        </div>
+    </div>
+
+        <div id="scroll-percentage"><span id="scroll-percentage-value"></span></div>
+        <!--scrollup-->
+
+        <div id="theme-toogle" class="switcher-button">
+            <div class="switcher-button-inner-left"></div>
+            <div class="switcher-button-inner"></div>
+        </div>
+
+        <!-- JS here -->
+        <script src="assets/js/vendor/jquary-3.6.0.min.js"></script>
+        <script src="assets/js/vendor/bootstrap-bundle.js"></script>
+        <script src="assets/js/vendor/imagesloaded-pkgd.js"></script>
+        <script src="assets/js/vendor/waypoints.min.js"></script>
+        <script src="assets/js/vendor/venobox.min.js"></script>
+        <script src="assets/js/vendor/odometer.min.js"></script>
+        <script src="assets/js/vendor/meanmenu.js"></script>
+        <script src="assets/js/vendor/jquery.isotope.js"></script>
+        <script src="assets/js/vendor/swiper.min.js"></script>
+        <script src="assets/js/vendor/split-type.min.js"></script>
+        <script src="assets/js/vendor/gsap.min.js"></script>
+        <script src="assets/js/vendor/scroll-trigger.min.js"></script>
+        <script src="assets/js/vendor/scroll-smoother.js"></script>
+        <script src="assets/js/vendor/jquery.carouselTicker.js"></script>
+        <script src="assets/js/vendor/nice-select.js"></script>
+        <script src="assets/js/slider.js"></script>
+        <script src="assets/js/contact.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+
+</html>
